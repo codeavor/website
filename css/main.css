@@ -1448,11 +1448,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     margin: 0;
     padding: 0;
     left: 40px;
-    top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     z-index: 501;
+    height: 40%;
+    width: 40%;
 }
 
 .header-logo a {
@@ -1464,6 +1465,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     width: 80px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+    width: 20%;
+    height: 20%;
 }
 
 
